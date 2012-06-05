@@ -8,12 +8,12 @@ gem 'rails', '3.2.3'
 gem 'sqlite3-ruby' , :group => :development 
 
 group :development do
-  gem 'rspec-rails', '2.0.1'
+  gem 'rspec-rails', '~> 2.4'
 end
 
 group :test do
-  gem 'rspec', '2.0.1'
-  gem 'webrat', '0.7.2'
+  gem 'rspec'
+  gem 'webrat'
 end
 # Gems used only for assets and not required
 # in production environments by default.
